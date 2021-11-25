@@ -1,3 +1,6 @@
+const { client } = require('../models/entities');
+const clientDAO = require('../db/clientDAO');
+
 const loginControl = (request, response) => {
     const clientServices = require('../services/clientServices');
 

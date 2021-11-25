@@ -15,7 +15,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-create database if not exists sales;
+create database if not exists sql6451485;
 USE sql6451485;
 
 
@@ -92,7 +92,7 @@ CREATE TABLE `client` (
   `num_client` int NOT NULL AUTO_INCREMENT,
   `society` varchar(60) DEFAULT NULL,
   `contact` varchar(30) DEFAULT NULL,
-  `addres` varchar(40) DEFAULT NULL,
+  `address` varchar(40) DEFAULT NULL,
   `zipcode` varchar(5) DEFAULT NULL,
   `city` varchar(30) DEFAULT NULL,
   `phone` varchar(15) DEFAULT NULL,
